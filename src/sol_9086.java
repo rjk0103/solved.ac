@@ -7,7 +7,7 @@ public class sol_9086 {
         for (int i = 0; i < N; i++) {
             String a = scanner.next();
             int l = a.length();
-            String first_c = String.valueOf(a.charAt(0));
+            String first_c = String.valueOf(a.charAt(0));   // String.valueOf && .charAt
             String last_c = String.valueOf(a.charAt(l-1));
             System.out.println(first_c + last_c);
         }
