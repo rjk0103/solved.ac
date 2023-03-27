@@ -7,9 +7,9 @@ public class sol_9086 {
         for (int i = 0; i < N; i++) {
             String a = scanner.next();
             int l = a.length();
-            String f_c = String.valueOf(a.charAt(0));
-            String l_c = String.valueOf(a.charAt(l-1));
-            System.out.println(f_c + l_c);
+            String first_c = String.valueOf(a.charAt(0));
+            String last_c = String.valueOf(a.charAt(l-1));
+            System.out.println(first_c + last_c);
         }
     }
 }
