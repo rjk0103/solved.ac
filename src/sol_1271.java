@@ -1,13 +1,12 @@
 import java.util.*;
+import java.math.BigInteger;
 public class sol_1271 { //BigInteger형 변환 공부하기.
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int m = scanner.nextInt();
+        BigInteger n = scanner.nextBigInteger();
+        BigInteger m = scanner.nextBigInteger();
 
-        int a = n / m;
-        int b = n % m;
-        System.out.println(a);
-        System.out.println(b);
+        System.out.println(n.divide(m));
+        System.out.println(n.remainder(m));
     }
 }
